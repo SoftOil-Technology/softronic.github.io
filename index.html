@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIA - Sistema Supervisorio | Softronic</title>
+    <meta name="description" content="Sistema Supervisorio de Medición Volumétrica en Aprovechamientos Industriales de Agua">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="images/softronic-logo.svg" alt="Softronic Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#about">Acerca de</a>
+                <a href="#features">Funciones</a>
+                <a href="#tech">Tecnologías</a>
+                <a href="#impact">Impacto</a>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="reveal-text">SISTEMA <span>APIA</span></h1>
+                <p class="hero-subtitle reveal-text">Supervisión inteligente de recursos hídricos</p>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title reveal-text">¿Qué es APIA?</h2>
+                    <p class="reveal-text">
+                        Es un Sistema Supervisorio de Medición Volumétrica en Aprovechamientos Industriales de Agua, 
+                        desarrollado por Softronic (IoTronic) para cumplir la norma NMX-AA-179-SCFI-2018. Permite 
+                        controlar, analizar y visualizar el uso del agua en tiempo real.
+                    </p>
+                    <p class="reveal-text">
+                        Su objetivo es ofrecer una solución de software que ayude tanto a Concesionarios Industriales 
+                        como a CONAGUA a gestionar, medir y fiscalizar eficientemente el consumo del agua.
+                    </p>
+                </div>
+                <div class="about-image reveal-image">
+                    <img src="images/apia-system.png" alt="Water Management System">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title text-center reveal-text">¿Qué funciones tiene APIA?</h2>
+            
+            <div class="tabs">
+                <div class="tab-headers">
+                    <button class="tab-btn active" data-tab="concesionarios">Para Concesionarios</button>
+                    <button class="tab-btn" data-tab="conagua">Para CONAGUA</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="concesionarios">
+                        <div class="features-grid">
+                            <div class="feature-card reveal-card">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 2v8"></path><path d="m4.93 10.93 1.41 1.41"></path>
+                                        <path d="M2 18h2"></path><path d="M20 18h2"></path>
+                                        <path d="m19.07 10.93-1.41 1.41"></path>
+                                        <path d="M22 22H2"></path><path d="m16 6-4 4-4-4"></path>
+                                        <path d="M16 18a4 4 0 0 0-8 0"></path>
+                                    </svg>
+                                </div>
+                                <h3>Recepción de datos</h3>
+                                <p>Recibe datos diarios de las Unidades Electrónicas en campo.</p>
+                            </div>
+                            
+                            <div class="feature-card reveal-card">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M10 5.172C10 3.12 12.5 2 12.5 2s2.5 1.12 2.5 3.172v5.66a4 4 0 1 1-5 0V5.172z"></path>
+                                        <path d="M10 14.172v-2"></path><path d="M15 14.172v-2"></path>
+                                        <path d="M12.5 19.5v-2"></path>
+                                    </svg>
+                                </div>
+                                <h3>Alertas</h3>
+                                <p>Alerta por consumo excesivo, flujo cero o tubería vacía.</p>
+                            </div>
+                            
+                            <div class="feature-card reveal-card">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M3 3v18h18"></path>
+                                        <path d="m19 9-5 5-4-4-3 3"></path>
+                                    </svg>
+                                </div>
+                                <h3>Análisis de consumo</h3>
+                                <p>Análisis de consumo diario, mensual y anual.</p>
+                            </div>
+                            
+                            <div class="feature-card reveal-card">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                                        <path d="M7 7h10"></path><path d="M7 12h10"></path>
+                                        <path d="M7 17h10"></path>
+                                    </svg>
+                                </div>
+                                <h3>Reportes BI</h3>
+                                <p>Reportes BI (Business Intelligence) personalizados.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="conagua">
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
+                                        <path d="M12 9v4"></path><path d="M12 17h.01"></path>
+                                    </svg>
+                                </div>
+                                <h3>Detección de fugas</h3>
+                                <p>Detección y localización de fugas en ductos.</p>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 22a8 8 0 0 0 8-8"></path>
+                                        <path d="M20 10c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8"></path>
+                                        <path d="M15 9h-3.5A1.5 1.5 0 0 0 10 10.5s0 0 0 0A1.5 1.5 0 0 0 11.5 12h1a1.5 1.5 0 0 1 1.5 1.5s0 0 0 0A1.5 1.5 0 0 1 12.5 15H9"></path>
+                                    </svg>
+                                </div>
+                                <h3>Análisis de balances</h3>
+                                <p>Análisis de balances volumétricos.</p>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 12H3"></path>
+                                        <path d="M16 6H3"></path>
+                                        <path d="M12 18H3"></path>
+                                        <path d="M16 12h4"></path>
+                                        <path d="M21 6h-1"></path>
+                                        <path d="M16 18h4"></path>
+                                    </svg>
+                                </div>
+                                <h3>Control remoto</h3>
+                                <p>Control remoto de estaciones (válvulas, bombas, terminales).</p>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 10h.01"></path>
+                                        <path d="M15 10h.01"></path>
+                                        <path d="M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z"></path>
+                                    </svg>
+                                </div>
+                                <h3>Alertas por incumplimiento</h3>
+                                <p>Alertas por exceso o incumplimiento del título de concesión.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="tech" class="technologies">
+        <div class="container">
+            <div class="tech-header">
+                <h2 class="section-title text-center reveal-text">Tecnologías Usadas</h2>
+                <p class="section-subtitle text-center reveal-text">
+                    Combinamos tecnologías de vanguardia para ofrecer una solución completa
+                </p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card reveal-card">
+                    <h3>FrontEnd</h3>
+                    <p>Interfaces web y móviles intuitivas.</p>
+                    <div class="tech-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+                            <path d="M7 7h10"></path>
+                            <path d="M7 12h10"></path>
+                            <path d="M7 17h10"></path>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="tech-card reveal-card">
+                    <h3>BackEnd</h3>
+                    <p>Gestión de lógica y comunicación con bases de datos.</p>
+                    <div class="tech-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 18a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12Z"></path>
+                            <path d="M12 9h.01"></path>
+                            <path d="M12 13h.01"></path>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="tech-card reveal-card">
+                    <h3>BI (Superset)</h3>
+                    <p>Dashboards, gráficos y reportes avanzados.</p>
+                    <div class="tech-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 3v18h18"></path>
+                            <path d="m19 9-5 5-4-4-3 3"></path>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="tech-card reveal-card">
+                    <h3>Comunicaciones</h3>
+                    <p>Integración con Unidades Electrónicas vía red.</p>
+                    <div class="tech-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                            <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                            <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                            <path d="M12 20h.01"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Section -->
+    <section class="innovation">
+        <div class="container">
+            <div class="innovation-content">
+                <div class="innovation-image reveal-image">
+                    <img src="images/innovacion.png" alt="Innovation in Water Management">
+                </div>
+                <div class="innovation-text">
+                    <h2 class="section-title reveal-text">Innovación</h2>
+                    <ul class="innovation-list">
+                        <li class="reveal-text">
+                            <span class="number">01</span>
+                            <div>
+                                <h3>Desarrollo joven</h3>
+                                <p>Primer software joven desarrollado por estudiantes del IPN para la gestión hídrica nacional.</p>
+                            </div>
+                        </li>
+                        <li class="reveal-text">
+                            <span class="number">02</span>
+                            <div>
+                                <h3>Sistema integral</h3>
+                                <p>Único sistema que combina análisis BI, control de campo y cumplimiento normativo.</p>
+                            </div>
+                        </li>
+                        <li class="reveal-text">
+                            <span class="number">03</span>
+                            <div>
+                                <h3>Integración</h3>
+                                <p>Puede integrarse a sistemas ya existentes de CONAGUA o concesionarios.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="impact">
+        <div class="container">
+            <h2 class="section-title text-center reveal-text">Impacto</h2>
+            
+            <div class="impact-grid">
+                <div class="impact-card reveal-card">
+                    <div class="impact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <h3>Cumplimiento legal</h3>
+                    <p>Facilita el cumplimiento legal (NMX-AA-179-SCFI-2018).</p>
+                </div>
+                
+                <div class="impact-card reveal-card">
+                    <div class="impact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22a8 8 0 0 0 8-8"></path>
+                            <path d="M20 10c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8"></path>
+                            <path d="M12 12v-2"></path>
+                            <path d="M12 12h4"></path>
+                        </svg>
+                    </div>
+                    <h3>Uso responsable</h3>
+                    <p>Fomenta el uso responsable del agua.</p>
+                </div>
+                
+                <div class="impact-card reveal-card">
+                    <div class="impact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path>
+                        </svg>
+                    </div>
+                    <h3>Detección de fugas</h3>
+                    <p>Apoya la detención de fugas y pérdidas económicas.</p>
+                </div>
+                
+                <div class="impact-card reveal-card">
+                    <div class="impact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z"></path>
+                            <path d="M12 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z"></path>
+                            <path d="M7 14c3.22-2.91 4.29-8.75 5-12 1.66 2.38 4.94 9 5 12"></path>
+                            <path d="M22 9c-4.29 0-7.14-2.33-10-7 5.71 0 10 4.67 10 7Z"></path>
+                        </svg>
+                    </div>
+                    <h3>Mejora recaudación</h3>
+                    <p>Mejora la recaudación de contribuciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title text-center reveal-text">DESARROLLADORES</h2>
+            
+            <div class="team-grid">
+                <div class="team-card reveal-card">
+                    <div class="team-image">
+                        <img src="images/developer-1.jpg" alt="Luis Ricardo Chavarría Arreola">
+                    </div>
+                    <div class="team-info">
+                        <h3>Luis Ricardo Chavarría Arreola</h3>
+                        <p>Programador</p>
+                    </div>
+                </div>
+                
+                <div class="team-card reveal-card">
+                    <div class="team-image">
+                        <img src="images/developer-2.jpg" alt="Luis Enrique Ramírez Chavarría">
+                    </div>
+                    <div class="team-info">
+                        <h3>Luis Enrique Ramírez Chavarría</h3>
+                        <p>Business Intelligence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="images/softronic-logo.svg" alt="Softronic Logo">
+                </div>
+                <div class="social-links">
+                    <p>&copy; <span id="current-year"></span> Softronic. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
